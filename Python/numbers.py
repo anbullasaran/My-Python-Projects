@@ -14,3 +14,11 @@ fact=1
 for i in range(1,6):
     fact=fact*i
 print("The factorial of", i, "is : ", fact)'''
+
+# reverse a integer number
+
+def reverse(x):   
+    rev = int(str(x)[::-1])
+    print(rev)             
+
+reverse(123)
