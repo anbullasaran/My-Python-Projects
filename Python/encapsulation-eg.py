@@ -13,7 +13,11 @@ c1.name="ABC"
 c1.display()  # accessing private variable through class method
 print(c1.name)  # accessing public variable
 
-# another example
+
+
+
+
+# another example - public protected private variable example
 class bank:
     def __init__(self):
         self._ifsc="SBIN0001234"  # private variable
